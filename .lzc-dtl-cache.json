@@ -1,0 +1,33 @@
+{
+  "name": "Composerize",
+  "package": "cloud.lazycat.app.composerize",
+  "description": "docker compose toolkit",
+  "homepage": "https://github.com/composerize",
+  "author": "composerize",
+  "app_features": [
+    "background_task"
+  ],
+  "subdomain": "composerize",
+  "version": "0.0.1",
+  "iconPath": "icon.png",
+  "composePath": "docker-compose.yaml",
+  "unsupported_platforms": [
+    "ios",
+    "android"
+  ],
+  "lastRouteType": "from_compose",
+  "port_mappings": {
+    "composerize_8080_80": {
+      "use": true,
+      "type": "http",
+      "path": "/",
+      "targetPath": "/"
+    }
+  },
+  "image_oaklight_composerize_latest": {
+    "originalImage": "oaklight/composerize:latest",
+    "pushTarget": "lazycat",
+    "newImageName": "registry.lazycat.cloud/czyt/oaklight/composerize:21a938994d9c0748",
+    "timestamp": "2025-02-17T04:47:10.567Z"
+  }
+}
