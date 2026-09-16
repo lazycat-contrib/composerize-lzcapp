@@ -1,0 +1,11 @@
+application:
+  subdomain: composerize
+  background_task: true
+  multi_instance: false
+  upstreams:
+    - location: /
+      backend: http://composerize:80/
+services:
+  composerize:
+    # upstream: oaklight/composerize:latest
+    image: oaklight/composerize:latest
