@@ -7,5 +7,5 @@ application:
       backend: http://composerize:80/
 services:
   composerize:
-    # upstream: oaklight/composerize:latest@sha256:5507733213fd8f23b0e77fec0465668a354af1bda097a1a9ed5eb21b05eaac74
-    image: registry.lazycat.cloud/czyt/oaklight/composerize:7eaada2850858fa1
+    # upstream: oaklight/composerize:latest@sha256:fa7d0d84b598986ed8c406d2e3e65cb12b3a4fbd3eace279dd844b830ca32fd4
+    image: registry.lazycat.cloud/czyt/oaklight/composerize:5fc7a546ff9db170
